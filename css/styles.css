@@ -235,15 +235,12 @@ nav h1 a {
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-	width: 90%;
 }
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 40px 30px;
-}
-#reviews-container {
-  padding: 30px 40px 80px;
+  width: calc(100% - 60px);
 }
 #reviews-container h2 {
   color: #f58500;
@@ -281,7 +278,6 @@ nav h1 a {
 }
 #restaurant-container {
   position: relative;
-  width: 100%;
 }
 .inside #footer {
   width: 100%;
